@@ -1,0 +1,160 @@
+.counter-container {
+  background: white;
+  border-radius: 16px;
+  padding: 30px;
+  margin-bottom: 30px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.counter-display {
+  text-align: center;
+  margin: 30px 0;
+  padding: 30px;
+  background: linear-gradient(135deg, #667eea 0%, #764ba2 100%);
+  border-radius: 12px;
+}
+
+.count-value {
+  font-size: 4rem;
+  font-weight: bold;
+  color: white;
+  margin-bottom: 10px;
+  text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.2);
+}
+
+.count-label {
+  color: rgba(255, 255, 255, 0.9);
+  font-size: 1.1rem;
+}
+
+.counter-controls {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.step-control {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  padding: 15px;
+  background: #f8f9fa;
+  border-radius: 8px;
+}
+
+.step-control label {
+  font-weight: 600;
+  color: #333;
+}
+
+.step-input {
+  padding: 8px 12px;
+  border: 2px solid #ddd;
+  border-radius: 6px;
+  font-size: 1rem;
+  width: 80px;
+  text-align: center;
+}
+
+.step-input:focus {
+  outline: none;
+  border-color: #667eea;
+}
+
+.button-row {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 15px;
+}
+
+.counter-button {
+  padding: 15px 20px;
+  border: none;
+  border-radius: 8px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.counter-button:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.increment {
+  background: #2ecc71;
+  color: white;
+}
+
+.increment:hover {
+  background: #27ae60;
+}
+
+.decrement {
+  background: #e74c3c;
+  color: white;
+}
+
+.decrement:hover {
+  background: #c0392b;
+}
+
+.multiply {
+  background: #f39c12;
+  color: white;
+}
+
+.multiply:hover {
+  background: #e67e22;
+}
+
+.divide {
+  background: #9b59b6;
+  color: white;
+}
+
+.divide:hover {
+  background: #8e44ad;
+}
+
+.reset {
+  background: #34495e;
+  color: white;
+  width: 100%;
+}
+
+.reset:hover {
+  background: #2c3e50;
+}
+
+.counter-info {
+  margin-top: 25px;
+  padding: 20px;
+  background: #e8f4f8;
+  border-left: 4px solid #3498db;
+  border-radius: 4px;
+}
+
+.counter-info p {
+  margin-bottom: 10px;
+  color: #2c3e50;
+}
+
+.counter-info code {
+  display: block;
+  padding: 10px;
+  background: #2c3e50;
+  color: #ecf0f1;
+  border-radius: 4px;
+  font-family: 'Courier New', monospace;
+  margin: 10px 0;
+}
+
+.info-note {
+  margin-top: 10px;
+  font-size: 0.9rem;
+  color: #555;
+  font-style: italic;
+}
+

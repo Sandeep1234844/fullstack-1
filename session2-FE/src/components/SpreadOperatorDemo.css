@@ -1,0 +1,135 @@
+.spread-demo-container {
+  background: white;
+  border-radius: 16px;
+  padding: 30px;
+  margin-bottom: 30px;
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.1);
+}
+
+.demo-sections {
+  display: flex;
+  flex-direction: column;
+  gap: 30px;
+  margin-top: 25px;
+}
+
+.demo-section {
+  padding: 20px;
+  background: #f8f9fa;
+  border-radius: 12px;
+  border-left: 4px solid #667eea;
+}
+
+.demo-section h3 {
+  color: #667eea;
+  margin-bottom: 20px;
+  font-size: 1.3rem;
+}
+
+.example-box {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.code-example {
+  background: #2c3e50;
+  color: #ecf0f1;
+  padding: 15px;
+  border-radius: 8px;
+  font-family: 'Courier New', monospace;
+  font-size: 0.95rem;
+}
+
+.code-example p {
+  margin: 5px 0;
+}
+
+.button-group {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
+.demo-button {
+  padding: 10px 16px;
+  background: #667eea;
+  color: white;
+  border: none;
+  border-radius: 6px;
+  font-size: 0.9rem;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.3s ease;
+  flex: 1;
+  min-width: 200px;
+}
+
+.demo-button:hover {
+  background: #5568d3;
+  transform: translateY(-2px);
+  box-shadow: 0 4px 8px rgba(102, 126, 234, 0.3);
+}
+
+.result-box {
+  background: #e8f5e9;
+  border-left: 4px solid #4caf50;
+  padding: 15px;
+  border-radius: 6px;
+  margin-top: 10px;
+}
+
+.result-box strong {
+  color: #2e7d32;
+  display: block;
+  margin-bottom: 10px;
+}
+
+.result-box pre {
+  background: #fff;
+  padding: 10px;
+  border-radius: 4px;
+  margin-top: 10px;
+  font-family: 'Courier New', monospace;
+  font-size: 0.85rem;
+  overflow-x: auto;
+}
+
+.spread-info {
+  margin-top: 30px;
+  padding: 20px;
+  background: #e3f2fd;
+  border-left: 4px solid #2196f3;
+  border-radius: 8px;
+}
+
+.spread-info h4 {
+  color: #1565c0;
+  margin-bottom: 15px;
+  font-size: 1.1rem;
+}
+
+.spread-info ul {
+  list-style: none;
+  padding: 0;
+}
+
+.spread-info li {
+  padding: 8px 0;
+  color: #333;
+  border-bottom: 1px solid #bbdefb;
+}
+
+.spread-info li:last-child {
+  border-bottom: none;
+}
+
+.spread-info code {
+  background: #fff;
+  padding: 2px 6px;
+  border-radius: 3px;
+  color: #1976d2;
+  font-family: 'Courier New', monospace;
+  font-weight: 600;
+}
+
