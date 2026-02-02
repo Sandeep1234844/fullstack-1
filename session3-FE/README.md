@@ -1,8 +1,14 @@
-# Session 3 Frontend - React useState Lab: Counter with Theme Toggle
+# Session 3 Frontend - React Activities
 
 ## Created by: Sandeep1234844
 
-This project implements the React Activity 1 from Session 3, demonstrating the `useState` hook by building a Counter component with theme toggle functionality.
+This project implements both React activities from Session 3:
+
+### Activity 1: Counter with Theme Toggle
+Demonstrates the `useState` hook by building a Counter component with theme toggle functionality.
+
+### Activity 2: React Forms - ContactUs
+Demonstrates controlled inputs, form handling, and `useState` with forms.
 
 ### Learning Objectives Achieved:
 
@@ -13,7 +19,7 @@ This project implements the React Activity 1 from Session 3, demonstrating the `
 ✅ Update state safely using callback functions (functional updates)  
 ✅ Understand the difference between **imperative** and **declarative** programming  
 
-### Features Implemented:
+### Activity 1 Features:
 
 1. **Theme Toggle**
    - Switch between light and dark themes
@@ -24,6 +30,17 @@ This project implements the React Activity 1 from Session 3, demonstrating the `
    - Increment and decrement counter value
    - Uses `useState` for counter state
    - Uses functional updates (callback form) for safe state updates
+
+### Activity 2 Features:
+
+1. **ContactUs Form**
+   - Name, Email, Phone input fields
+   - Phone Type select dropdown (Home, Work, Mobile)
+   - Comments textarea field
+   - All inputs are controlled components using `useState`
+   - Form submission with `preventDefault`
+   - Form reset after submission
+   - Logs form data to console
 
 ### Key Concepts Demonstrated:
 
@@ -67,9 +84,11 @@ The app will run on `http://localhost:5173` (default Vite port).
 ```
 session3-FE/
 ├── src/
-│   ├── Counter.jsx      # Main Counter component
-│   ├── Counter.css      # Component styles
-│   ├── App.jsx          # App component
+│   ├── Counter.jsx      # Activity 1: Counter component
+│   ├── Counter.css      # Counter styles
+│   ├── ContactUs.jsx    # Activity 2: ContactUs form component
+│   ├── ContactUs.css    # ContactUs form styles
+│   ├── App.jsx          # App component (navigation between activities)
 │   ├── App.css          # App styles
 │   ├── main.jsx         # Entry point
 │   └── index.css        # Global styles
@@ -79,7 +98,8 @@ session3-FE/
 └── README.md
 ```
 
-### Activity Reference:
+### Activity References:
 
-Based on: [React useState Lab: Building a Counter with Theme Toggle](https://github.com/FullStack-DP/session3-FE/blob/main/material/fe-react-activity1.md)
+- **Activity 1**: [React useState Lab: Building a Counter with Theme Toggle](https://github.com/FullStack-DP/session3-FE/blob/main/material/fe-react-activity1.md)
+- **Activity 2**: [React Forms - Intro](https://github.com/FullStack-DP/session3-FE/blob/main/material/fe-react-activity2.md)
 
